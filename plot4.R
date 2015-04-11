@@ -3,12 +3,12 @@
 #   1
 #       setwd( "..." )  
 #       # Filename "household_power_consumption.txt" is used
-#       plot1()
+#       plot4()
 #   2
 #       setwd( "..." )  
-#       plot1( "data.txt" )
+#       plot4( "data.txt" )
 #   3
-#       plot1( "D:/folder/folder/data.txt" )
+#       plot4( "D:/folder/folder/data.txt" )
 plot4<-function(fileName="household_power_consumption.txt")
 {
     if( !file.exists(fileName) )
