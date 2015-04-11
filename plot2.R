@@ -1,3 +1,4 @@
+# Plot is saved at working directory
 # Call examples:
 #   1
 #       setwd( "..." )  
